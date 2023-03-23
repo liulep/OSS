@@ -61,4 +61,11 @@
         </repository>
     </distributionManagement>
 
+    <repositories>
+        <repository>
+            <id>github</id>
+            <url>https://gcore.jsdelivr.net/gh/liulep/OSS/release/</url>
+        </repository>
+    </repositories>
+
 </project>
