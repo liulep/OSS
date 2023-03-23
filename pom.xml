@@ -64,7 +64,7 @@
     <repositories>
         <repository>
             <id>github</id>
-            <url>https://gcore.jsdelivr.net/gh/liulep/OSS/release/</url>
+            <url>https://raw.githubusercontent.com/liulep/OSS/main/release/</url>
         </repository>
     </repositories>
 
