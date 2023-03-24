@@ -46,7 +46,7 @@ public class OssAutoConfiguration {
 
     @Bean
     @ConditionalOnBean(AmazonS3.class)
-    public OssTemplate ossTemplate(AmazonS3 amazonS3){
+    public OssTemplate ossTemplate(@Qualifier("ossClient") AmazonS3 amazonS3){
         return new OssTemplateImpl(amazonS3);
     }
 }
